@@ -3,6 +3,46 @@
 	margin: 0;
 	box-sizing: content-box;
 }
+.containerHeader {
+	width: 100%;
+	height: 10vh;
+	display: flex;
+	justify-content: center;
+	background: white;
+}
+
+@media (max-width: 375px){
+	.containerHeader {
+		background-color: white;
+	}
+}
+
+.containerHeader__nav {
+	width: 35vw;
+	height: 10vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: white;
+}
+
+.containerHeadernav__link {
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	font-family: 'Anton', sans-serif;
+	text-transform: uppercase;
+	font-weight: 10;
+	color: #69B284; 
+}
+/*oper case nas letras*/
+
+.containerHeadernav__image {
+	width: 60px;
+	height: 60px;
+	display: flex;
+	flex-direction: row;
+}
 .contact{
 	width: 100vw;
 	height: 80vh;
